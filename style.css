@@ -3,24 +3,53 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
-    width: 35%;
-}
-
-.container {
-    margin-top: 0;
-    align-items: center;
-    width: fit-content;
+img.title {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    width: 100%;
+    margin-bottom: 16px;
 }
 
 p {
     color: #605E60;
+    font-size: 120%;
+    width: 100%;
+    text-align: center;
 }
 
 .dot {
     color: #DFCCC5;
+}
+
+.container {
+    width: 35%;
+}
+
+@media (max-aspect-ratio: 1) {
+    .container {
+        width: 95% !important;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #AD9388;
+}
+
+div#socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div#socials > a {
+    padding: 7px 7px;
+    margin: 9px 2px;
+}
+
+div#socials > a:hover {
+    border-bottom: 2px solid #84CCC9;
 }
