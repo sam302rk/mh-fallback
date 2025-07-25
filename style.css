@@ -16,6 +16,10 @@ p {
     text-align: center;
 }
 
+ul {
+    color: #605E60;
+}
+
 li {
     color: #605E60;
     font-size: 120%;
