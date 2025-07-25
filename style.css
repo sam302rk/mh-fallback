@@ -16,6 +16,11 @@ p {
     text-align: center;
 }
 
+li {
+    color: #605E60;
+    font-size: 120%;
+}
+
 .dot {
     color: #DFCCC5;
 }
@@ -52,4 +57,12 @@ div#socials > a {
 
 div#socials > a:hover {
     border-bottom: 2px solid #84CCC9;
+}
+
+div.ul-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
 }
